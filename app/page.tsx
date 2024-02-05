@@ -26,22 +26,22 @@ export default function Home() {
             experience that keeps you informed without wasting your time.
           </p>
           <Link href="/dashboard">
-            <Button className="w-full">Get Started</Button>
+            <Button className="w-full">Go to Dashboard &rarr;</Button>
           </Link>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           <Image
-            src="/landing.svg"
+            src="/preview.png"
             width={1000}
             height={760}
-            className="hidden md:block"
+            className="hidden md:block drop-shadow-[0_35px_35px_rgba(112,128,144,0.5)]"
             alt="Preview"
           />
           <Image
-            src="/landing.svg"
+            src="/preview.png"
             width={560}
             height={620}
-            className="block md:hidden"
+            className="block md:hidden drop-shadow-[0_35px_35px_rgba(112,128,144,0.5)]"
             alt="Preview"
           />
         </div>
