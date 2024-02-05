@@ -1,6 +1,6 @@
 <h1 align="center">Newsman</h1>
 
-Stay informed and engaged with the world around you using Newsman, a dynamic web app that delivers the latest news headlines and articles, seamlessly powered by the Currents API.
+Introducing Newsman, which is a powerful news web app that aggregates news from various sources and delivers it to you in a clean and organized manner. Whether you're looking for breaking news or specific topics of interest, Newsman has you covered.
 ![all-devices-black](https://github.com/sohomofficial/newsman/assets/93909798/f26407ec-1d0d-4816-af94-37be88dcaec2)
 
 ## Features
