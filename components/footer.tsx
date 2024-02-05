@@ -27,7 +27,7 @@ export default function Footer() {
         <span className="text-sm font-medium leading-none">
           Give it a ⭐ on
         </span>
-        <a href="https://github.com/sohomofficial">
+        <a href="https://github.com/sohomofficial/newsman">
           <Button size={"icon"}>
             <Github className="h-6 w-6" />
           </Button>
