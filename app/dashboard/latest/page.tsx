@@ -61,7 +61,7 @@ export default function LatestNews() {
           relevant andimportant stories, saving you time and effort.
         </p>
       </div>
-      <div className="mt-10 flex justify-between gap-x-2">
+      <div className="mt-10 grid grid-cols-2 md:grid-cols-3 justify-between gap-2">
         <Select onValueChange={(value) => setLanguage(value)}>
           <SelectTrigger className="w-full">
             <SelectValue placeholder="Language" />
@@ -87,7 +87,7 @@ export default function LatestNews() {
           </SelectContent>
         </Select>
         <Select onValueChange={(value) => setCategory(value)}>
-          <SelectTrigger className="w-full capitalize">
+          <SelectTrigger className="w-full col-span-3 md:col-span-1 capitalize">
             <SelectValue placeholder="Category" />
           </SelectTrigger>
           <SelectContent>

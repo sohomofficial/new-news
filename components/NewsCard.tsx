@@ -41,7 +41,9 @@ export default function NewsCard({ news }: Prop) {
               {item}
             </Badge>
           ))}
-          <Badge variant={"outline"}>Author: {news.author}</Badge>
+          <Badge variant={"outline"} className="line-clamp-1">
+            Author: {news.author}
+          </Badge>
         </CardContent>
         <CardFooter>
           <Badge variant={"secondary"}>{date}</Badge>
